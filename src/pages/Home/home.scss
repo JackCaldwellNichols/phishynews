@@ -1,0 +1,13 @@
+.home {
+  padding: 20px;
+  display: flex;
+
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+}

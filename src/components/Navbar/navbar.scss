@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px 10px 30px;
+  border-bottom: 1px solid grey;
+  font-family: "Inclusive Sans";
+  .left {
+    flex: 1;
+    h1 {
+      font-family: "MedievalSharp", cursive;
+      font-size: 40px;
+    }
+  }
+  .right {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    .cats {
+      display: flex;
+      .cat {
+        margin-right: 20px;
+        font-size: 24px;
+        cursor: pointer;
+      }
+    }
+    .searchbar {
+      input {
+        width: 300px;
+        height: 45px;
+        font-size: 20px;
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+  }
+}
